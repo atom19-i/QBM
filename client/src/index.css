@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+body {
+  font-family: "Josefin Sans", cursive;
+  /* background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("https://www.mpuat.ac.in/images/slider/large/img92680010.jpg") no-repeat center center fixed;
+  background-size:cover; */
+}
+
+tr{
+  background: rgb(231, 228, 228);
+}
+
+.spinner {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+.page-section {
+  padding: 8rem 0;
+}
